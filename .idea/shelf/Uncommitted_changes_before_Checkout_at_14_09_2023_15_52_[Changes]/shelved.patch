@@ -1,0 +1,17 @@
+Index: IAccount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/IAccount.java b/IAccount.java
+--- a/IAccount.java	(revision b5906ff02aed53124af8f48ad128686893ae8aa6)
++++ b/IAccount.java	(date 1694703060217)
+@@ -1,1 +1,5 @@
+-
++public interface IAccount {
++    void deposit(double depositAmount);
++    void withdraw(double withdrawAmount);
++     getBalance();
++}
